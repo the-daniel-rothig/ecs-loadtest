@@ -1,0 +1,30 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://www.dcsf.gov.uk/20090308/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:SubmitSingleQuery>
+         <!--Optional:-->
+         <ns:requestInput>
+            <ns:SystemId>PerfTest80198</ns:SystemId>
+            <ns:Password>4K:jmX0XLSVH</ns:Password>
+            <ns:LocalAuthorityId>PerfTest</ns:LocalAuthorityId>
+            <ns:RequestedServiceVersion>20160901</ns:RequestedServiceVersion>
+            <ns:UserToQuery>
+               <!--Optional:-->
+               <ns:Surname/>
+               <ns:DateOfBirth>2016-09-08</ns:DateOfBirth>
+               <!--Optional:-->
+               <ns:NiNo>JJ130089B</ns:NiNo>
+               <!--Optional:-->
+               <ns:NASS/>
+               <!--Optional:-->
+               <ns:Subscribers/>
+               <!--Optional:-->
+               <ns:Dern>10000000002</ns:Dern>
+            </ns:UserToQuery>
+            <ns:SourceType>CITIZEN</ns:SourceType>
+            <ns:EligibilityCheckType>30H</ns:EligibilityCheckType>
+            <ns:ServiceType>SHARED</ns:ServiceType>
+         </ns:requestInput>
+      </ns:SubmitSingleQuery>
+   </soapenv:Body>
+</soapenv:Envelope>

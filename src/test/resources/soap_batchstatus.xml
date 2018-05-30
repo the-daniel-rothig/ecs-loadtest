@@ -1,0 +1,15 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://www.dcsf.gov.uk/20090308/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ns:FetchBatchStatus>
+            <!--Optional:-->
+            <ns:requestInput>
+                <ns:SystemId>PerfTest80198</ns:SystemId>
+                <ns:Password>4K:jmX0XLSVH</ns:Password>
+                <ns:LocalAuthorityId>PerfTest</ns:LocalAuthorityId>
+                <ns:RequestedServiceVersion>20160901</ns:RequestedServiceVersion>
+                <ns:BatchID>${batch_id}</ns:BatchID>
+            </ns:requestInput>
+        </ns:FetchBatchStatus>
+    </soapenv:Body>
+</soapenv:Envelope>

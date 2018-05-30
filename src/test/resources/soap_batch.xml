@@ -1,0 +1,21 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://www.dcsf.gov.uk/20090308/" xmlns:ns1="http://www.dcsf.gov.uk/20090810/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ns:SubmitBatchQuery>
+            <!--Optional:-->
+            <ns:requestInput>
+                <ns1:SystemId>PerfTest80198</ns1:SystemId>
+                <ns1:Password>4K:jmX0XLSVH</ns1:Password>
+                <ns1:LocalAuthorityId>PerfTest</ns1:LocalAuthorityId>
+                <ns1:RequestedServiceVersion>20160901</ns1:RequestedServiceVersion>
+                <!--Optional:-->
+                <ns1:LABatchID>LoadTest</ns1:LABatchID>
+                <ns1:BatchQueries>
+                    %s
+                </ns1:BatchQueries>
+                <ns1:EligibilityCheckType>30H</ns1:EligibilityCheckType>
+                <ns1:ServiceType>SHARED</ns1:ServiceType>
+            </ns:requestInput>
+        </ns:SubmitBatchQuery>
+    </soapenv:Body>
+</soapenv:Envelope>

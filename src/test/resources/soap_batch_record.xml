@@ -1,0 +1,14 @@
+<ns1:BatchQuery>
+    <!--Optional:-->
+    <!--<ns1:RowID>?</ns1:RowID>-->
+    <!--Optional:-->
+    <ns1:UserToQuery>
+        <ns:DateOfBirth>%s</ns:DateOfBirth>
+        <!--Optional:-->
+        <ns:NiNo>%s</ns:NiNo>
+        <!--Optional:-->
+        <ns:Subscribers />
+        <!--Optional:-->
+        <ns:Dern>%s</ns:Dern>
+    </ns1:UserToQuery>
+</ns1:BatchQuery>
